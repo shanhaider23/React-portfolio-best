@@ -1,5 +1,6 @@
 import Navbar from "./Components/Navbar/Navbar";
 import Services from "./Components/Services/Services";
+import React, { Component } from "react";
 import Intro from "./Components/Intro/Intro";
 import "./App.css";
 import Experience from "./Components/Experience/Experience";
@@ -23,8 +24,9 @@ function App() {
     >
       <Navbar />
       <Intro />
-      <Services />
       <Portfolio />
+      <Services />
+
       <Work />
       <Experience />
       <Contact />
