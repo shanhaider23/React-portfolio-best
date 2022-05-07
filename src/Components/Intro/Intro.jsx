@@ -10,8 +10,8 @@ import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
 import FloatinDiv from "../FloatingDiv/FloatingDiv";
 import { themeContext } from "../../Context";
-import { motion } from "framer-motion";
 
+import { motion } from "framer-motion";
 function Intro() {
   const transition = { duration: 2, type: "spring" };
 
