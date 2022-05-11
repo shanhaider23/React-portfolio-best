@@ -28,7 +28,8 @@
 }
 .awesome > :nth-child(3) {
   color: var(--gray);
-  font-size: 14px;
+  font-size: 18px !important;
+  font-weight: 300 !important;
   margin-top: 1rem;
 }
 .s-button {

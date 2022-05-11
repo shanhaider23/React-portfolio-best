@@ -26,14 +26,18 @@ function Intro() {
           <span style={{ color: darkMode ? "white" : "" }}>Hi, I Am</span>
           <span> Shan-e-Haider</span>{" "}
           <span>
-            {" "}
-            Full-stack Developer with good understanding of React, React Native,
-            <br />
-            Next.js, Typescript, JavaScript, Node.js, C#/.NET, HTML/CSS, MySQL,{" "}
-            <br /> MongoDB, AWS, and Git.{" "}
+            an independent Full-stack Developer who likes to build things for
+            the web and is passionate <br /> about bringing life to it with
+            HTML, SASS, and JavaScript. Like every developer, <br />I can't
+            survive without StackOverflow and YouTube. Wait, of course, Google
+            too. <br /> I think that "Everything has a solution, only if you're
+            trying with patience and hard effort !!"
+            <br /> If I need to define myself in one sentence that would be a
+            family person, father of a beautiful <br /> daughter and son,
+            zoophilist, photography enthusiast, and tech-obsessed!!!
           </span>
         </div>
-        <button className="button i-button">Hire me</button>
+        <button className="button i-button">Contact</button>
         <div className="i-icons">
           <a href="https://github.com/shanhaider23">
             <img src={Github} alt="Git" />

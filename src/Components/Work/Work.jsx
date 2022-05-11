@@ -28,8 +28,23 @@ function Work() {
             I have worked with a range of technologies in the web development
             world. From back-end to front-end.
           </spane>
+          <span>FRONTEND DEVELOPMENT</span>
+          <span>
+            React/Native, Next.js, JavaScript, Typescript, Redux HTML/CSS, SCSS,
+            Bootstrap
+          </span>
+          <span>BACKEND DEVELOPMENT</span>
+          <span>Node.js, C#/.Net</span>
+          <span>DATABASE MANAGEMENT</span>
+          <span>MongoDB, MySQL</span>
+          <span>BACKEND DEVELOPMENT</span>
+          <span>GitHub, Action, Docker, Heroku, CI/CD pipeline</span>
+          <span>CLOUD SERVICES</span>
+          <span>AWS, AZURE </span>
+          <span>OTHERS</span>
+          <span>Figma, WordPress</span>
           <Link to="contact" smooth={true} spy={true}>
-            <button className="button s-button">Hire Me</button>
+            <button className="button s-button">Contact</button>
           </Link>
           <div
             className="blur s-blur1"

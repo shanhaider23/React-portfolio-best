@@ -29,6 +29,67 @@
   font-size: 14px;
   margin-top: 1rem;
 }
+.awesome > :nth-child(4) {
+  color: var(--orange);
+  font-size: 14px;
+  margin-top: 1rem;
+}
+.awesome > :nth-child(5) {
+  color: var(--gray);
+  font-size: 14px;
+  margin-top: 5px;
+}
+.awesome > :nth-child(6) {
+  color: var(--orange);
+  font-size: 14px;
+  margin-top: 1rem;
+}
+.awesome > :nth-child(7) {
+  color: var(--gray);
+  font-size: 14px;
+  margin-top: 5px;
+}
+.awesome > :nth-child(8) {
+  color: var(--orange);
+  font-size: 14px;
+  margin-top: 1rem;
+}
+.awesome > :nth-child(9) {
+  color: var(--gray);
+  font-size: 14px;
+  margin-top: 5px;
+}
+.awesome > :nth-child(10) {
+  color: var(--orange);
+  font-size: 14px;
+  margin-top: 1rem;
+}
+.awesome > :nth-child(11) {
+  color: var(--gray);
+  font-size: 14px;
+  margin-top: 5px;
+}
+.awesome > :nth-child(12) {
+  color: var(--orange);
+  font-size: 14px;
+  margin-top: 1rem;
+}
+.awesome > :nth-child(13) {
+  color: var(--gray);
+  font-size: 14px;
+  margin-top: 5px;
+}
+.awesome > :nth-child(14) {
+  color: var(--orange);
+  font-size: 14px;
+  margin-top: 1rem;
+}
+.awesome > :nth-child(15) {
+  color: var(--gray);
+  font-size: 14px;
+  margin-top: 5px;
+}
+
 .s-button {
   width: 8rem;
   height: 2rem;

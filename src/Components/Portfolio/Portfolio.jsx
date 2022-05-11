@@ -10,7 +10,7 @@ import Split from "../../img/split.jpg";
 import Crypto from "../../img/crypto.jpg";
 import Admin from "../../img/admin.jpg";
 import Mern from "../../img/mern.jpg";
-import MusicApp from "../../img/todo.png";
+import MusicApp from "../../img/azure.jpg";
 import POT from "../../img/pot3.jpg";
 import POT2 from "../../img/pot2.jpg";
 import POT3 from "../../img/pot1.jpg";
@@ -38,13 +38,13 @@ function Portfolio() {
         />
       </div>
 
-      <div className="portfolio-2">
-        <a href="https://www.dianox.com/">
-          <img src={Web} alt="" className="portfolio-2mg" />
-        </a>
-        <h2 className="portfolio-heading">Dianox</h2>
-        <a href="https://github.com/Dianoxbio/dianox-app-v1.7.5/tree/develop/dianox">
-          <img src={Github} alt="" className="portfolio-2mg" />
+      <div className="portfolio-3">
+        <a
+          href="https://www.dianox.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className="portfolio-heading">Dianox</h2>
         </a>
       </div>
       <p className="portfolio-des">
@@ -52,10 +52,70 @@ function Portfolio() {
         Next.js and Bootstrap for the frontend, and Node.js, MongoDB and AWS for
         the backend.
       </p>
-      <p className="portfolio-stack">Stacks </p>
+      <div className="portfolio-2">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.dianox.com/"
+        >
+          <img src={Web} alt="" className="portfolio-2mg" />
+        </a>
+        <h2 className="portfolio-heading">Stacks</h2>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/Dianoxbio/dianox-app-v1.7.5/tree/develop/dianox"
+        >
+          <img src={Github} alt="" className="portfolio-2mg" />
+        </a>
+      </div>
       <p className="portfolio-sta">
         Next.js, MongoDB, AWS, Node.js and Bootstrap
       </p>
+    </div>,
+    <div className="portfolio-1">
+      <div>
+        <img
+          src={MusicApp}
+          onDragStart={handleDragStart}
+          role="presentation"
+          className="portfolio-1mg"
+          alt=""
+        />
+      </div>
+
+      <div className="portfolio-3">
+        <a
+          href="https://shan-meals-sharing.azurewebsites.net/home"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className="portfolio-heading">Meals Sharing App</h2>
+        </a>
+      </div>
+      <p className="portfolio-des">
+        Full-stack app on Azure that helps users to share good meals with others
+        and user can also book meals. The user can also review the meals and
+        reserved place for specific meals.
+      </p>
+      <div className="portfolio-2">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://shan-meals-sharing.azurewebsites.net/home"
+        >
+          <img src={Web} alt="" className="portfolio-2mg" />
+        </a>
+        <h2 className="portfolio-heading">Stacks</h2>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/shanhaider23/meal-sharing"
+        >
+          <img src={Github} alt="" className="portfolio-2mg" />
+        </a>
+      </div>
+      <p className="portfolio-sta">React, C#/.NET, MySQL, Azure </p>
     </div>,
     <div className="portfolio-1">
       <div>
@@ -68,13 +128,13 @@ function Portfolio() {
         />
       </div>
 
-      <div className="portfolio-2">
-        <a href="https://meal-sharing-shan.herokuapp.com/home">
-          <img src={Web} alt="" className="portfolio-2mg" />
-        </a>
-        <h2 className="portfolio-heading">Meal Sharing App</h2>
-        <a href="https://github.com/shanhaider23/meal-sharing">
-          <img src={Github} alt="" className="portfolio-2mg" />
+      <div className="portfolio-3">
+        <a
+          href="https://meal-sharing-shan.herokuapp.com/home"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className="portfolio-heading">Meals App</h2>
         </a>
       </div>
       <p className="portfolio-des">
@@ -82,7 +142,23 @@ function Portfolio() {
         can also book meals. The user can also review the meals and reserved
         place for specific meals.
       </p>
-      <p className="portfolio-stack">Stacks </p>
+      <div className="portfolio-2">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://meal-sharing-shan.herokuapp.com/home"
+        >
+          <img src={Web} alt="" className="portfolio-2mg" />
+        </a>
+        <h2 className="portfolio-heading">Stacks</h2>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/shanhaider23/meal-sharing"
+        >
+          <img src={Github} alt="" className="portfolio-2mg" />
+        </a>
+      </div>
       <p className="portfolio-sta">React, Node.js, Express.js, MySQL</p>
     </div>,
     <div className="portfolio-1">
@@ -91,18 +167,18 @@ function Portfolio() {
           src={Name}
           onDragStart={handleDragStart}
           role="presentation"
-          className="portfolio-name"
+          className="portfolio-1mg"
           alt=""
         />
       </div>
 
-      <div className="portfolio-2">
-        <a href="https://staging-simply-name-it.herokuapp.com/profile">
-          <img src={Web} alt="" className="portfolio-2mg" />
-        </a>
-        <h2 className="portfolio-heading">Simply Name it!</h2>
-        <a href="https://github.com/shanhaider23">
-          <img src={Github} alt="" className="portfolio-2mg" />
+      <div className="portfolio-3">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://staging-simply-name-it.herokuapp.com/profile"
+        >
+          <h2 className="portfolio-heading">Simply Name it!</h2>
         </a>
       </div>
       <p className="portfolio-des">
@@ -110,7 +186,23 @@ function Portfolio() {
         groups. The app is designed in a way that users can invite other users
         to participate in the election of the winning option.
       </p>
-      <p className="portfolio-stack">Stacks </p>
+      <div className="portfolio-2">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://staging-simply-name-it.herokuapp.com/profile"
+        >
+          <img src={Web} alt="" className="portfolio-2mg" />
+        </a>
+        <h2 className="portfolio-heading">Stacks</h2>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/shanhaider23"
+        >
+          <img src={Github} alt="" className="portfolio-2mg" />
+        </a>
+      </div>
       <p className="portfolio-sta">React, MySQL, Storybook, AWS and Firebase</p>
     </div>,
     <div className="portfolio-1">
@@ -124,13 +216,13 @@ function Portfolio() {
         />
       </div>
 
-      <div className="portfolio-2">
-        <a href="https://expenses-spliting-app.vercel.app/">
-          <img src={Web} alt="" className="portfolio-2mg" />
-        </a>
-        <h2 className="portfolio-heading">Expenses App</h2>
-        <a href="https://github.com/shanhaider23/expenses-sharing-frontend">
-          <img src={Github} alt="" className="portfolio-2mg" />
+      <div className="portfolio-3">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://expenses-spliting-app.vercel.app/"
+        >
+          <h2 className="portfolio-heading">Expenses App</h2>
         </a>
       </div>
       <p className="portfolio-des">
@@ -138,7 +230,23 @@ function Portfolio() {
         colleagues and friends. Its full-stack application with the backend at
         MongoDB. Developed as a part of the coding challenge.
       </p>
-      <p className="portfolio-stack">Stacks </p>
+      <div className="portfolio-2">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://expenses-spliting-app.vercel.app/"
+        >
+          <img src={Web} alt="" className="portfolio-2mg" />
+        </a>
+        <h2 className="portfolio-heading">Stacks</h2>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/shanhaider23/expenses-sharing-frontend"
+        >
+          <img src={Github} alt="" className="portfolio-2mg" />
+        </a>
+      </div>
       <p className="portfolio-sta">
         React, SASS, Bootstrap, Node, Express, MongoDB
       </p>
@@ -154,13 +262,13 @@ function Portfolio() {
         />
       </div>
 
-      <div className="portfolio-2">
-        <a href="https://crypto-core.vercel.app/">
-          <img src={Web} alt="" className="portfolio-2mg" />
-        </a>
-        <h2 className="portfolio-heading">Crypto</h2>
-        <a href="https://github.com/shanhaider23/crypto-data">
-          <img src={Github} alt="" className="portfolio-2mg" />
+      <div className="portfolio-3">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://crypto-core.vercel.app/"
+        >
+          <h2 className="portfolio-heading">Crypto</h2>
         </a>
       </div>
       <p className="portfolio-des">
@@ -168,7 +276,23 @@ function Portfolio() {
         application is used dynamic data from external api and display it in
         different chart forms as well as indvisuially.
       </p>
-      <p className="portfolio-stack">Stacks </p>
+      <div className="portfolio-2">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://crypto-core.vercel.app/"
+        >
+          <img src={Web} alt="" className="portfolio-2mg" />
+        </a>
+        <h2 className="portfolio-heading">Crypto</h2>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/shanhaider23/crypto-data"
+        >
+          <img src={Github} alt="" className="portfolio-2mg" />
+        </a>
+      </div>
       <p className="portfolio-sta">React.js, Material ui, REST api, and CSS</p>
     </div>,
     <div className="portfolio-1">
@@ -182,13 +306,13 @@ function Portfolio() {
         />
       </div>
 
-      <div className="portfolio-2">
-        <a href="https://admin-panel-shan.vercel.app/">
-          <img src={Web} alt="" className="portfolio-2mg" />
-        </a>
-        <h2 className="portfolio-heading">Admin Panel</h2>
-        <a href="https://github.com/shanhaider23/React-admin-panel">
-          <img src={Github} alt="" className="portfolio-2mg" />
+      <div className="portfolio-3">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://admin-panel-shan.vercel.app/"
+        >
+          <h2 className="portfolio-heading">Admin Panel</h2>
         </a>
       </div>
       <p className="portfolio-des">
@@ -196,7 +320,23 @@ function Portfolio() {
         technologies like React, Charts.js and Bootstrap for the frontend, and
         Node.js for the backend.
       </p>
-      <p className="portfolio-stack">Stacks </p>
+      <div className="portfolio-2">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://admin-panel-shan.vercel.app/"
+        >
+          <img src={Web} alt="" className="portfolio-2mg" />
+        </a>
+        <h2 className="portfolio-heading">Stacks</h2>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/shanhaider23/React-admin-panel"
+        >
+          <img src={Github} alt="" className="portfolio-2mg" />
+        </a>
+      </div>
       <p className="portfolio-sta">React, Charts.js, Node.js and Bootstrap</p>
     </div>,
     <div className="portfolio-1">
@@ -210,20 +350,36 @@ function Portfolio() {
         />
       </div>
 
-      <div className="portfolio-2">
-        <a href="https://distracted-einstein-f6e628.netlify.app/">
-          <img src={Web} alt="" className="portfolio-2mg" />
-        </a>
-        <h2 className="portfolio-heading">ToDo App </h2>
-        <a href="https://github.com/shanhaider23">
-          <img src={Github} alt="" className="portfolio-2mg" />
+      <div className="portfolio-3">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://distracted-einstein-f6e628.netlify.app/"
+        >
+          <h2 className="portfolio-heading">ToDo App </h2>
         </a>
       </div>
       <p className="portfolio-des">
         Todo app is a simple app to write and manage to do tasks. This app has
         functionality of drag and drop.
       </p>
-      <p className="portfolio-stack">Stacks </p>
+      <div className="portfolio-2">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://distracted-einstein-f6e628.netlify.app/"
+        >
+          <img src={Web} alt="" className="portfolio-2mg" />
+        </a>
+        <h2 className="portfolio-heading">Stacks </h2>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/shanhaider23"
+        >
+          <img src={Github} alt="" className="portfolio-2mg" />
+        </a>
+      </div>
       <p className="portfolio-sta">React, HTML, and CSS</p>
     </div>,
     <div className="portfolio-1">
@@ -237,13 +393,13 @@ function Portfolio() {
         />
       </div>
 
-      <div className="portfolio-2">
-        <a href="https://heuristic-visvesvaraya-c4c6f8.netlify.app/">
-          <img src={Web} alt="" className="portfolio-2mg" />
-        </a>
-        <h2 className="portfolio-heading">Reparing Applications</h2>
-        <a href="https://github.com/shanhaider23">
-          <img src={Github} alt="" className="portfolio-2mg" />
+      <div className="portfolio-3">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://heuristic-visvesvaraya-c4c6f8.netlify.app/"
+        >
+          <h2 className="portfolio-heading">Reparing Applications</h2>
         </a>
       </div>
       <p className="portfolio-des">
@@ -252,7 +408,23 @@ function Portfolio() {
         technologies like React and Bootstrap for the frontend, and Node.js and
         MongoDB for the backend and database.
       </p>
-      <p className="portfolio-stack">Stacks </p>
+      <div className="portfolio-2">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://heuristic-visvesvaraya-c4c6f8.netlify.app/"
+        >
+          <img src={Web} alt="" className="portfolio-2mg" />
+        </a>
+        <h2 className="portfolio-heading">Stacks</h2>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/shanhaider23"
+        >
+          <img src={Github} alt="" className="portfolio-2mg" />
+        </a>
+      </div>
       <p className="portfolio-sta">React, MongoDB, Node.js and Bootstrap</p>
     </div>,
     <div className="portfolio-1">
@@ -266,67 +438,36 @@ function Portfolio() {
         />
       </div>
 
-      <div className="portfolio-2">
-        <a href="https://shan-portfolio.vercel.app/">
-          <img src={Web} alt="" className="portfolio-2mg" />
-        </a>
-        <h2 className="portfolio-heading">Animated Portfolio</h2>
-        <a href="https://github.com/shanhaider23">
-          <img src={Github} alt="" className="portfolio-2mg" />
+      <div className="portfolio-3">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://shan-portfolio.vercel.app/"
+        >
+          <h2 className="portfolio-heading">Animated Portfolio</h2>
         </a>
       </div>
       <p className="portfolio-des">Animated portfolio</p>
-      <p className="portfolio-stack">Stacks </p>
+      <div className="portfolio-2">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://shan-portfolio.vercel.app/"
+        >
+          <img src={Web} alt="" className="portfolio-2mg" />
+        </a>
+        <h2 className="portfolio-heading">Stacks</h2>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/shanhaider23"
+        >
+          <img src={Github} alt="" className="portfolio-2mg" />
+        </a>
+      </div>
       <p className="portfolio-sta">React, SCSS, Bootstrap</p>
     </div>,
-    <div className="portfolio-1">
-      <div>
-        <img
-          src={POT3}
-          onDragStart={handleDragStart}
-          role="presentation"
-          className="portfolio-1mg"
-          alt=""
-        />
-      </div>
 
-      <div className="portfolio-2">
-        <a href="https://shan-e-haider.netlify.app/">
-          <img src={Web} alt="" className="portfolio-2mg" />
-        </a>
-        <h2 className="portfolio-heading">Portfolio</h2>
-        <a href="https://github.com/shanhaider23">
-          <img src={Github} alt="" className="portfolio-2mg" />
-        </a>
-      </div>
-      <p className="portfolio-des">Portfolio</p>
-      <p className="portfolio-stack">Stacks </p>
-      <p className="portfolio-sta">HTML, SCSS, LESS and JavaScript</p>
-    </div>,
-    <div className="portfolio-1">
-      <div>
-        <img
-          src={POT2}
-          onDragStart={handleDragStart}
-          role="presentation"
-          className="portfolio-1mg"
-          alt=""
-        />
-      </div>
-
-      <div className="portfolio-2">
-        <a href="https://haiderium.vercel.app/">
-          <img src={Web} alt="" className="portfolio-2mg" />
-        </a>
-        <h2 className="portfolio-heading">Portfolio</h2>
-        <a href="https://github.com/shanhaider23">
-          <img src={Github} alt="" className="portfolio-2mg" />
-        </a>
-      </div>
-      <p className="portfolio-des"> Animated SVG Portfolio</p>
-      <p className="portfolio-stack">Stacks </p>
-      <p className="portfolio-sta">React, SCSS and Bootstrap</p>
-    </div>,
     <div className="portfolio-1">
       <div>
         <img
@@ -338,32 +479,48 @@ function Portfolio() {
         />
       </div>
 
-      <div className="portfolio-2">
-        <a href="https://shan-weather.netlify.app/">
-          <img src={Web} alt="" className="portfolio-2mg" />
-        </a>
-        <h2 className="portfolio-heading">Weather app</h2>
-        <a href="https://github.com/shanhaider23">
-          <img src={Github} alt="" className="portfolio-2mg" />
+      <div className="portfolio-3">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://shan-weather.netlify.app/"
+        >
+          <h2 className="portfolio-heading">Weather app</h2>
         </a>
       </div>
       <p className="portfolio-des">
         Weather app is an app to find weather details of cities and countries.
       </p>
-      <p className="portfolio-stack">Stacks </p>
-      <p className="portfolio-sta">HTML, CSS, and JavaScript</p>
+      <div className="portfolio-2">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://shan-weather.netlify.app/"
+        >
+          <img src={Web} alt="" className="portfolio-2mg" />
+        </a>
+        <h2 className="portfolio-heading">Stacks</h2>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/shanhaider23"
+        >
+          <img src={Github} alt="" className="portfolio-2mg" />
+        </a>
+      </div>
+      <p className="portfolio-sta">HTML, CSS, and JavaScript(DOM)</p>
     </div>,
   ];
 
   return (
     <div className="portfolio" id="portfolio">
       {/* heading */}
-      <span>Recent Projects</span>
-      <span className="recent-projects">Portfolio</span>
+
+      <span className="recent-projects">Projects</span>
       <AliceCarousel
         mouseTracking
         infinite
-        autoPlayInterval={3000}
+        autoPlayInterval={1500}
         animationDuration={1500}
         items={items}
         autoPlay

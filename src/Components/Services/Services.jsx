@@ -19,12 +19,13 @@ function Services() {
   return (
     <div className="services" id="services">
       <div className="awesome">
-        <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
-        <span>services</span>
+        <span style={{ color: darkMode ? "white" : "" }}>Skills</span>
+        <span></span>
         <spane>
-          I provides services in both frontend as well as backend technologies
+          Full-stack Developer with experience in React, Next.js, JavaScript,
+          Node.js, <br /> C#/.NET, HTML/CSS, React Native, TypeScript, WordPress
           <br />
-          such as HTML, CSS/SCSS, JavaScript, Node.js and C#/.NET.
+          MySQL, MongoDB, AWS, Azure, CI/CD, Docker and Git.
           <br />
         </spane>
         <a href={Resume} download>
