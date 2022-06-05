@@ -39,7 +39,7 @@ textarea {
   top: 1rem;
   left: 8rem;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 580px) {
   .contact-form {
     padding: 0;
     flex-direction: column;
